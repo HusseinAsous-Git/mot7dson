@@ -92,17 +92,19 @@
     margin: 16px 0;
 }
 .cover-image{
-    width: 100%;
+    /* width: 100%; */
     /* border:1px solid red; */
     position: relative;
     top:-20px;
-    height:540px;
+    /* height:600px; */
     /* background: url('../img/cover.png') no-repeat center center;
     background-size:100% 100%; */
     overflow: hidden;
 }
 .cover-image img{
   width: 100%;
+  display: block;
+  margin:auto;
 }
 .left-colspan{
     font-size:16px;
@@ -139,6 +141,7 @@
   text-align: center;
   font-size: 60px;
   color: #354d49;
+  margin-top:24px;
 }
 .soon h3{
   font-size: 28px;
