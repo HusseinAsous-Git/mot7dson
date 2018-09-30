@@ -31,7 +31,7 @@
 }
 .input-group.prev-input-group .form-control {
   float: right;
-  width: 87%;
+  width: calc(100% - 90px);
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   border-top-right-radius: 4px;
@@ -54,7 +54,7 @@
 }
 .input-group.prev-input-group .input-group-btn {
   float: left;
-  width: 13%;
+  width: 90px;
 }
 .input-group.prev-input-group .input-group-btn .btn {
   margin: 0;
@@ -82,7 +82,8 @@
 }
 .new-nav{
   background-color: #eff5f5;
-  padding:30px 0
+  padding:30px 0;
+  /* border:1px solid red; */
 }
 .new-nav img{
   /* display:block;
@@ -135,6 +136,17 @@
 .logo{
     display: inline-block;
     height:120px;
+}
+
+@media (max-width: 576px) {
+  
+  .logo{
+    height:80px; 
+    transform: translateX(-50%);
+  }
+  .logoX{
+    transform: translateX(0);
+  }
 }
 .soon h1{
   display:block;
